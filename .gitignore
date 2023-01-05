@@ -3,5 +3,5 @@ tokenizer-bigbird-small-indonesian/
 model-bigbird-small-indonesian/
 model_ed/
 model-bigbird-small-indonesian-summarization/
-checkpoint*/
-tensorboard*/
+other_script/data/
+runs/

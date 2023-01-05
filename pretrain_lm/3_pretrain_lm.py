@@ -13,7 +13,7 @@ from transformers import (
 from torch.optim import AdamW
 
 SEED = 42
-MODEL_DIR = './model-bigbird-small-indonesian'
+MODEL_DIR = 'model-bigbird-small-indonesian'
 TOKENIZER_DIR = './tokenizer-bigbird-small-indonesian'
 DS_TRAIN_DIR = './dataset/lm_train'
 DS_EVAL_DIR = './dataset/lm_test'
@@ -24,8 +24,7 @@ MAX_LENGTH = 4096
 EPOCH = 8
 BATCH_SIZE = 2
 GRADIENT_ACCUMULATION = 64
-# LEARNING_RATE = 5e-5 * (BATCH_SIZE * GRADIENT_ACCUMULATION) / 8
-LEARNING_RATE = 5e-5 * math.sqrt((BATCH_SIZE * GRADIENT_ACCUMULATION) / 8)
+LEARNING_RATE = 1e-4
 
 
 def init_model():
@@ -34,9 +33,6 @@ def init_model():
         hidden_size = 512,
         num_hidden_layers = 4,
         num_attention_heads = 8,
-        # hidden_size = 768,
-        # num_hidden_layers = 3,
-        # num_attention_heads = 12,
         intermediate_size = 2048,  # BERT/RoBERTa use 4x hidden_size
         max_position_embeddings = MAX_LENGTH,
         is_encoder_decoder=False,
@@ -50,7 +46,7 @@ def init_model():
 
 def train(tokenizer, model, ds_train, ds_eval):
     data_collator = DataCollatorForLanguageModeling(tokenizer, mlm=True, mlm_probability=0.15)
-    optim = AdamW(model.parameters(), weight_decay=0.01)
+    optim = AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=0.01)
     # lr_scheduler = get_cosine_schedule_with_warmup(optim)
     training_args = TrainingArguments(
         # checkpoint

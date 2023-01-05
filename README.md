@@ -1,5 +1,3 @@
-> TO DO: change some info/variable to preseve PRIVACY
-
 # Indonesian small BigBird model
 
 **Disclaimer:** This is work in progress. Additional information about the source code will be added in the future.
@@ -23,7 +21,7 @@ Hardware:
 * 6C/12T CPU
 * 32GB RAM
 * RTX 3060 12GB
-* SSD
+* SSD storage
 
 Run this command to create Anaconda/Miniconda environment.
 
