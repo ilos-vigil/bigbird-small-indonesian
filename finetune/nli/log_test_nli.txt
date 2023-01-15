@@ -1,0 +1,28 @@
+Model name: /mnt/encrypted_database/sum_nlp/checkpoint-bigbird-small-indonesian-nli/checkpoint-7000
+{'test_lay_loss': 0.7255620956420898, 'test_lay_accuracy': 0.6928668786915039, 'test_lay_runtime': 1.9062, 'test_lay_samples_per_second': 1154.641, 'test_lay_steps_per_second': 36.197}
+{'test_expert_loss': 0.9566764831542969, 'test_expert_accuracy': 0.5804289544235925, 'test_expert_runtime': 3.0095, 'test_expert_samples_per_second': 991.515, 'test_expert_steps_per_second': 31.234}
+===============================================================================
+Model name: /mnt/encrypted_database/sum_nlp/checkpoint-bigbird-small-indonesian-nli-02/checkpoint-1610
+{'test_lay_loss': 0.7965648770332336, 'test_lay_accuracy': 0.6810540663334848, 'test_lay_runtime': 1.9353, 'test_lay_samples_per_second': 1137.307, 'test_lay_steps_per_second': 35.654}
+{'test_expert_loss': 1.0707361698150635, 'test_expert_accuracy': 0.5170911528150134, 'test_expert_runtime': 3.0571, 'test_expert_samples_per_second': 976.086, 'test_expert_steps_per_second': 30.748}
+===============================================================================
+Model name: /mnt/encrypted_database/sum_nlp/checkpoint-bigbird-small-indonesian-nli-03/checkpoint-14416
+{'test_lay_loss': 0.7419901490211487, 'test_lay_accuracy': 0.6919582008178101, 'test_lay_runtime': 1.9604, 'test_lay_samples_per_second': 1122.743, 'test_lay_steps_per_second': 35.197}
+{'test_expert_loss': 0.9947169423103333, 'test_expert_accuracy': 0.5690348525469169, 'test_expert_runtime': 3.0444, 'test_expert_samples_per_second': 980.164, 'test_expert_steps_per_second': 30.876}
+===============================================================================
+Model name: /mnt/encrypted_database/sum_nlp/checkpoint-bigbird-small-indonesian-nli-05/checkpoint-28832
+{'test_lay_loss': 0.7605392336845398, 'test_lay_accuracy': 0.6887778282598819, 'test_lay_runtime': 1.8653, 'test_lay_samples_per_second': 1179.961, 'test_lay_steps_per_second': 36.991}
+{'test_expert_loss': 1.0379149913787842, 'test_expert_accuracy': 0.5733914209115282, 'test_expert_runtime': 2.9612, 'test_expert_samples_per_second': 1007.708, 'test_expert_steps_per_second': 31.744}
+===============================================================================
+Model name: /mnt/encrypted_database/sum_nlp/checkpoint-bigbird-small-indonesian-nli-05/checkpoint-16218
+{'test_lay_loss': 0.754331648349762, 'test_lay_accuracy': 0.6928668786915039, 'test_lay_runtime': 1.8981, 'test_lay_samples_per_second': 1159.591, 'test_lay_steps_per_second': 36.352}
+{'test_expert_loss': 1.0106021165847778, 'test_expert_accuracy': 0.5737265415549598, 'test_expert_runtime': 2.998, 'test_expert_samples_per_second': 995.328, 'test_expert_steps_per_second': 31.354}
+===============================================================================
+Model name: joeddav/xlm-roberta-large-xnli
+{'test_lay_loss': 5.679019927978516, 'test_lay_accuracy': 0.222626079054975, 'test_lay_runtime': 13.2485, 'test_lay_samples_per_second': 166.132, 'test_lay_steps_per_second': 5.208}
+{'test_expert_loss': 4.491161823272705, 'test_expert_accuracy': 0.35053619302949063, 'test_expert_runtime': 25.3338, 'test_expert_samples_per_second': 117.787, 'test_expert_steps_per_second': 3.71}
+===============================================================================
+Model name: MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7
+{'test_lay_loss': 0.5940776467323303, 'test_lay_accuracy': 0.8150840527033166, 'test_lay_runtime': 8.6508, 'test_lay_samples_per_second': 254.427, 'test_lay_steps_per_second': 7.976}
+{'test_expert_loss': 0.715413510799408, 'test_expert_accuracy': 0.7774798927613941, 'test_expert_runtime': 16.3265, 'test_expert_samples_per_second': 182.771, 'test_expert_steps_per_second': 5.758}
+===============================================================================

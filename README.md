@@ -5,7 +5,7 @@
 This GitHub repository contain source code to train/finetune the model, while HuggingFace hub contain model checkpoint and some technical explanation. Link to HuggingFace hub,
 
 * https://huggingface.co/ilos-vigil/bigbird-small-indonesian
-* https://huggingface.co/ilos-vigil/bigbird-small-indonesian-summarization
+* https://huggingface.co/ilos-vigil/bigbird-small-indonesian-nli
 
 ## Environment
 
@@ -50,6 +50,8 @@ If you receive lots of error message about processing news, try to reduce value 
 Failed to proceed  https://www.liputan6.com/news/read/81044/peringatan-hari-antimadat-di-bandung-dihadiri-pecandu . Potentially the news has been deleted from Liputan6.
 Failed to proceed  https://www.liputan6.com/news/read/130420/jamiyatul-islamiyah-sesat- . Potentially the news has been deleted from Liputan6.
 ```
+
+Dataset to perform benchmark/test on NLI models should be downloaded from [meisaputri21/Indonesian-Twitter-Emotion-Dataset/](https://github.com/meisaputri21/Indonesian-Twitter-Emotion-Dataset/) and put into directory `finetune/nli`.
 
 ## External references
 

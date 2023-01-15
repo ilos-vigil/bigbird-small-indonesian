@@ -95,6 +95,7 @@ dependencies:
     - responses==0.18.0
     - rouge-score==0.1.2
     - rsa==4.9
+    - scikit-learn==1.2.0
     - scipy==1.9.3
     - sentencepiece==0.1.97
     - sympy==1.11.1
@@ -102,6 +103,7 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - tf2onnx==1.12.1
+    - threadpoolctl==3.1.0
     - tokenizers==0.13.1
     - torch==1.11.0+cu115
     - torchinfo==1.7.1
